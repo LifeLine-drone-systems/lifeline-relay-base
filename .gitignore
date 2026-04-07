@@ -1,0 +1,71 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# Bun
+.bun/
+bun-cache/
+.bun-cache/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# =========================
+# Env / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+bun-debug.log*
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# =========================
+# Cache
+# =========================
+.cache/
+.tmp/
+temp/
+tmp/
+
+# =========================
+# Testing
+# =========================
+playwright-report/
+test-results/
+
+# =========================
+# Misc
+# =========================
+*.tgz
+
+# Prettier configuration files
+# These are intentionally left untracked since `mise format` will pull down the latest version
+.prettierignore
+prettier.config.json
