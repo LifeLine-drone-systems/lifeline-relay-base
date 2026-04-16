@@ -128,3 +128,6 @@ terraform.rc
 # These are intentionally left untracked since `mise format` will pull down the latest version
 .prettierignore
 prettier.config.json
+
+#config files that may contain sensitive data
+.npmrc
